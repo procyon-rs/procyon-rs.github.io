@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://procyon-rs.github.io/sitemap.xml
