@@ -1,0 +1,34 @@
+# The URL the site will be built for
+base_url = "https://procyon-rs.github.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "hallo"
+
+title = "procyon"
+
+[extra]
+greeting = "Hello!"
+
+iam = "I am"
+
+links = [
+    { title = "GitHub", url = "https://github.com/procyon-rs", icon = "github" },
+]
+
+[extra.author]
+name = "procyon"
+
+[extra.theme]
+background = "#6FCDBD"
+foreground = "#FFF"
+hover = "#333"
+
